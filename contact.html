@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-image:url("711.jpg") ;
+        }
+        header{
+            background-color: #3071ff;
+        }
+        nav{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h1>Contact Us /Give us a Feedback</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Get in touch through Email</h2>
+    <form action="#">
+        <label for="name"><em>Name:</em></label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email"><em>Email:</em></label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="gender"><em>Gender:</em></label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <input type="radio" id="prefer_not_to_say" name="gender" value="prefer_not_to_say">
+        <label for="prefer_not_to_say">Prefer not to say</label><br><br>
+
+
+        <label for="feedback"><em>How did you hear about us?(Tick everything that is applicable)</em></label><br>
+        <input type="checkbox" id="social_media" name="feedback" value="social_media">
+        <label for="social_media">Social Media</label><br>
+
+        <input type="checkbox" id="friend" name="feedback" value="friend">
+        <label for="friend">Friend/Family</label><br>
+
+        <input type="checkbox" id="advertisement" name="feedback" value="advertisement">
+        <label for="advertisement">Advertisement</label><br>
+
+        <input type="checkbox" id="walk_in" name="feedback" value="walk_in">
+        <label for="walk_in">Walk-in</label><br><br>
+
+        <label for="message">Message:</em></label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+
+<section style="background-color: #3071ff;color: white;">
+    <h2 style="color: white">Contact Details</h2>
+    <h3>Address</h3>
+    <p>Seven 11 GStore, XYZ, Kochi, Kerala</p>
+    <h5>PO: 682300</h5>
+    <h5>Phone Number: 8992882138</h5>
+    <h5>Email: seven11@xyz.com</h5>
+</section>
+
+<footer>
+    <p>&copy; 2024 Seven 11 GStore. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
