@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url("images/711.jpg");
+        }
+
+        header {
+            background-color: #3071ff;
+        }
+
+        nav {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logout-btn {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .logout-btn:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h1>Seven-11 Grocery Store</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="suppliers.html">Suppliers</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="employees.html">Employees</a></li>
+            <li><a href="sales-report.html">Sales Report</a></li>
+        </ul>
+        <a href="adminlogin.html" class="logout-btn">Logout</a>
+    </nav>
+</header>
+
+<section>
+    <h2 style="text-align: center">Featured Products</h2>
+    <div class="featured-products">
+        <div class="product">
+            <h3>1. Korean Ramen Noodles</h3>
+            <img src="images/ramen.jpg" alt="Korean Ramen">
+            <p>₹200 </p>
+        </div>
+        <div class="product">
+            <h3>2. 10Pc Crispy Chicken</h3>
+            <img src="images/kfc.jpg" alt="Chicken">
+            <p>₹500 </p>
+        </div>
+        <div class="product">
+            <h3>3. Redbull Case</h3>
+            <img src="images/redbull.jpg" alt="Redbull">
+            <p>₹1000 per case</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Seven-11 Grocery Store. All rights reserved.</p>
+</footer>
+</body>
+
+</html>
